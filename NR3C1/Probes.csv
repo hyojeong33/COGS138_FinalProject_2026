@@ -1,0 +1,6 @@
+id,name,gene-id,gene-symbol,gene-name,entrez-id,chromosome,start-position,end-position
+1030472,"A_23_P214059",2891,"NR3C1","nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)",2908,"5","n/a","n/a"
+1030471,"A_24_P214754",2891,"NR3C1","nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)",2908,"5","n/a","n/a"
+1030139,"CUST_1360_PI416573500",2891,"NR3C1","nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)",2908,"5","n/a","n/a"
+1030138,"CUST_1402_PI416379584",2891,"NR3C1","nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)",2908,"5","n/a","n/a"
+1030140,"CUST_481_PI416408490",2891,"NR3C1","nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)",2908,"5","n/a","n/a"
