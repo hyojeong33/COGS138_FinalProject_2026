@@ -5,7 +5,7 @@
 
 ## 👥 Team Members & Permissions
 * **Khang Quach** (PID: A_______) 
-* **Veeratat K.** (PID: A12468077)
+* **Veeratat K.** (PID: A12468077) 
 * **Brandon Melendez-Rodriguez** (PID: A_______) 
 * **Hyojeong Lee** (PID: A18491673) 
 
@@ -17,7 +17,7 @@ In this project, we investigated the molecular and behavioral landscapes of the 
 Using gene expression microarray data from the *Allen Human Brain Atlas*, we analyzed the expression profiles of key stress-regulation genes ($NR3C1$, $NR3C2$, and $FKBP5$). We then integrated these molecular signatures with literature text-mining data from **LISC** to evaluate co-occurrence frequencies with stress-related behavioral terms in PubMed. Our multi-modal computational pipeline successfully links regional receptor densities to their functional and cognitive associations in published neuroscience literature.
 
 <p align="center">
-  <img src="images:/pic2.jpg" alt="Brain Regions Involved in Memory Formation" width="500"/>
+  <img src="images/pic2.png" alt="Brain Regions Involved in Memory Formation" width="500"/>
 </p>
 
 ---
@@ -61,7 +61,7 @@ We extracted the mean gene expression z-scores for each target region from the A
 ### 1. Glucocorticoid Receptor Gene Expression (Bar Charts)
 We calculated and plotted the mean z-scored expression of $NR3C1$, $NR3C2$, and $FKBP5$ across our three target regions. Standard deviation error bars indicate the structural variance across the sample groups.
 
-![Glucocorticoid Receptor Gene Expression](images:/pic1.png)
+![Glucocorticoid Receptor Gene Expression](images/pic1.png)
 
 ### 2. Gene Expression Cross-Comparison (Heatmap)
 To easily compare the genomic density across regions, we mapped out a consolidated heatmap matrix.
@@ -69,22 +69,22 @@ To easily compare the genomic density across regions, we mapped out a consolidat
 * 🔵 **Blue/Cool** = lower z-scored expression (below average)
 * ⬜ **White-Gray/Neutral** = expression close to the mean (z-score ≈ 0)
 
-![Gene Expression Heatmap](images:/pic3.png)
+![Gene Expression Heatmap](images/pic3.png)
 
 ### 3. Principal Component Analysis (PCA)
 A PCA on the microarray expressions displays clear, localized clustering corresponding directly to each individual brain region, capturing a cumulative variance explanation across PC1 and PC2.
 
-![PCA Plot](images:/pic4.png)
+![PCA Plot](images/pic4.png)
 
 ### 4. PubMed Co-occurrence Matrix (LISC Heatmaps)
 Using LISC text-mining, we mapped both raw literature hit counts and row-normalized scores for region-to-keyword relationships. The normalized matrix shows that while the hippocampus is overwhelmingly associated with general `memory`, the prefrontal cortex exhibits a balanced distribution toward cognitive functions and emotional dysregulation terms like `depression`.
 
-![LISC Heatmaps](images:/pic5.png)
+![LISC Heatmaps](images/pic5.png)
 
 ### 5. Gene-Literature Cross-Correlation
 Plotting the mean expression of $NR3C1$ directly against the normalized literature frequency of the keyword `stress` reveals regional alignment behavior, mapping out distinct spatial boundaries for the Prefrontal Cortex, Amygdala, and Hippocampus.
 
-![Stress vs NR3C1 Correlation](images:/pic6.png)
+![Stress vs NR3C1 Correlation](images/pic6.png)
 
 ---
 
